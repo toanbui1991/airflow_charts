@@ -14,6 +14,7 @@ The `airflow.config` value makes this easier, each key-value is mounted as an en
 airflow:
   config:
     ## security
+    ## what is this config about
     AIRFLOW__WEBSERVER__EXPOSE_CONFIG: "False"
     
     ## dags

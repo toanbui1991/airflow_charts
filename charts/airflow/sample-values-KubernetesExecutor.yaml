@@ -22,6 +22,7 @@ airflow:
   ## the secret_key for flask (sets `AIRFLOW__WEBSERVER__SECRET_KEY`)
   ## [FAQ] https://github.com/airflow-helm/charts/blob/main/charts/airflow/docs/faq/security/set-webserver-secret-key.md
   ## [WARNING] change from default value to ensure security
+  #The Flask secret key for Airflow Webserver to encrypt browser session.
   webserverSecretKey: "THIS IS UNSAFE!"
 
   ## environment variables for airflow configs
